@@ -38,13 +38,17 @@ function draw() {
   dustbinObj.display();
   Paper.display();
 
-  if(keyDown(DOWN_ARROW)){
-	Matter.Body.applyForce(Paper.body, {x:400,y:-90}, 5)
+ 
+
+
+  
 }
 
+function keyPressed(){
 
-  if(keyDown(UP_ARROW)){
-	Matter.Body.applyForce(Paper.body,Paper.body.position,{x:400,y:-90});
-  }
+if(keyDown(UP_ARROW)){
+	Matter.Body.applyForce(Paper.body,Paper.body.position,{x:35,y:-30});
+  }	
+
 }
 
