@@ -4,7 +4,7 @@ class paper{
 		 'density':1.2,
 		 'friction': 0,
 		 'restitution':0.3
-		};
+		}
 		
 		this.x=x;
 		this.y=y;
